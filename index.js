@@ -1,8 +1,9 @@
-// add solution here
-function theBeatlesPlay(mus,ins){
-  var empty = []
-  for (let i = 0; (1 = mus.len); (i < 1); i++) {
-    empty.push(''${mus[i]} plays ${ins[i]}'')
+function theBeatlesPlay(musicians, instruments) {
+  const arr = []
+
+  for (let i = 0, l = musicians.length; i < l; i++) {
+    arr.push(`${musicians[i]} plays ${instruments[i]}`)
   }
-return empty
+
+  return arr
 }
