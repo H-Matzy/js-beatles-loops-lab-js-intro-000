@@ -14,4 +14,5 @@ function johnLennonFacts(f){
     yell.push(`${f[i]}!!!`)
     i++
   }
+  return yell
 }
